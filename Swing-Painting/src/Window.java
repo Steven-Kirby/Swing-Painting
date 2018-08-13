@@ -25,6 +25,8 @@ public class Window extends JFrame {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.add(new GraphicPanel());
 
+		new KeyboardManager(this);
+		new MouseManager(this);
 	}
 	
 }

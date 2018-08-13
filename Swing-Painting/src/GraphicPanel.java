@@ -6,7 +6,7 @@ public class GraphicPanel extends JPanel{
 	
 
 	public GraphicPanel() {
-	
+		
 	}
 	
     public void paintComponent(Graphics g) {
